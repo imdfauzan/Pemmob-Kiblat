@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SensorKiblat</string>
+    <string name="title_sensor">Sensor</string>
+    <string name="title_kiblat">Kiblat</string>
+    <string name="subtitle_sensor">Light Sensor · Auto Dark Mode</string>
+    <string name="subtitle_kiblat">Kiblat Finder · Sensor Fusion</string>
+    <string name="status_waiting_location">Menunggu lokasi…</string>
+    <string name="status_gps_off">GPS mati. Aktifkan lokasi / Atur Manual</string>
+    <string name="status_searching_location">Mencari lokasi…</string>
+    <string name="calibration_hint">Akurasi kompas rendah. Gerakkan HP membentuk angka 8 beberapa kali untuk kalibrasi, dan jauhkan dari benda logam / magnet.</string>
+    <string name="label_heading">Arah HP</string>
+    <string name="label_qibla_angle">Sudut Kiblat</string>
+    <string name="label_diff">Selisih</string>
+    <string name="label_distance">Jarak ke Ka\'bah</string>
+    <string name="label_location">Lokasi</string>
+    <string name="label_sensor_accuracy">Akurasi Sensor</string>
+    <string name="btn_refresh_location">Perbarui Lokasi</string>
+    <string name="btn_manual_location">Atur Manual</string>
+    <string name="label_mode_theme">MODE TEMA</string>
+    <string name="hint_theme_auto">Tema berubah otomatis mengikuti cahaya ruangan.</string>
+    <string name="label_lux_threshold">AMBANG LUX (HYSTERESIS)</string>
+    <string name="label_dark_threshold">Ambang Gelap (Dark Mode)</string>
+    <string name="label_light_threshold">Ambang Terang (Light Mode)</string>
+    <string name="hint_threshold_info">Tema pindah ke gelap saat Lux di bawah ambang gelap, dan kembali terang saat Lux di atas ambang terang. Di antara keduanya tema tidak berubah, jadi tidak ada flicker.</string>
+    <string name="msg_no_sensor">Sensor cahaya tidak ditemukan di perangkat ini. Mode Auto tidak aktif, tapi kamu tetap bisa memilih Terang / Gelap secara manual. Di emulator, atur nilai Lux lewat Extended controls &gt; Virtual sensors.</string>
+    <string name="default_dash">-</string>
+    <string name="default_zero">0.0</string>
+    <string name="default_lux_zero">Cahaya: 0.0 Lux</string>
+    <string name="default_status_light_auto">Light Mode · Auto</string>
+    <string name="default_dark_val">&lt; 10 lx</string>
+    <string name="default_light_val">&gt; 50 lx</string>
+    <string name="permission_location_denied">Izin lokasi ditolak</string>
+    <string name="permission_location_denied_toast">Izin lokasi ditolak. Pakai tombol "Atur Manual" untuk isi koordinat.</string>
+    <string name="hint_mode_light">Dikunci ke Light Mode, sensor cahaya diabaikan.</string>
+    <string name="hint_mode_dark">Dikunci ke Dark Mode, sensor cahaya diabaikan.</string>
+    <string name="hint_mode_auto">Tema berubah otomatis mengikuti cahaya ruangan. Coba tutup sensor cahaya dengan jari.</string>
+</resources>
