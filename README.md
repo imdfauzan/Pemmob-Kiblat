@@ -21,10 +21,11 @@ Aplikasi Android untuk mencari arah Kiblat dan memantau intensitas cahaya ruanga
 
 ## 📱 Screenshot UI
 
-|             Light Sensor & Auto Dark Mode              |                  Kiblat Finder                   |
-|:------------------------------------------------------:|:------------------------------------------------:|
-|             UI pemantau Lux & kontrol tema             |      Kompas presisi dengan indikator Kiblat      |
-| ![Screenshot Sensor](app/screenshot-sensorcahaya.jpeg) | ![Screenshot Kiblat](app/screenshot-kiblat.jpeg) |
+| Light Sensor & Auto Dark Mode | Kiblat Finder |
+|:---:|:---:|
+| UI pemantau Lux & kontrol tema | Kompas presisi dengan indikator Kiblat |
+| ![Screenshot Sensor](screenshots/screenshot-sensorcahaya.jpeg) | ![Screenshot Kiblat](screenshots/screenshot-kiblat.jpeg) |
+
 ---
 
 ## 🛠️ Tech Stack & Library
@@ -33,16 +34,3 @@ Aplikasi Android untuk mencari arah Kiblat dan memantau intensitas cahaya ruanga
 * **UI Architecture**: Glassmorphism Custom Views, Material Components, AndroidX
 * **Min SDK**: 24 (Android 7.0 Nougat)
 * **Target SDK**: 37
-
----
-
-## 🚀 Cara Run Aplikasi
-
-1. Clone repositori ini:
-   ```bash
-   git clone https://github.com/username/SensorKiblat.git
-   ```
-2. Buka project menggunakan **Android Studio**.
-3. Sync Gradle project dan jalankan pada Perangkat Fisik (disarankan agar sensor kompas & cahaya berfungsi) atau Emulator.
-
----
